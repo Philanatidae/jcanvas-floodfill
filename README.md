@@ -9,14 +9,14 @@ Hot To Use
 ==========
 Load the floodfill.jcanvas.js script after jCanvas. Use the drawFloodFill function to flood fill:
 
-'''javascript
+```javascript
 $("#canvas").drawFloodFill({
 	x: 0,
 	y: 0,
 	tolerance: 0,
 	color: "#000000"
 });
-'''
+```
 
 All of the properties are optional.
 
