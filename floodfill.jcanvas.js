@@ -35,6 +35,7 @@ $.jCanvas.extend({
 		var defaultParams = {
 			x: 0,
 			y: 0,
+			fromCenter: true,
 			tolerance: 0,
 			color: "#000000" 
 		};
@@ -202,6 +203,11 @@ $.jCanvas.extend({
 			});
 			b = "#"+b.join("");
 			rParams.color = b;
+		}
+		
+		if(rParams.fromCenter) {
+			rParams.x += $(ctx.canvas).width() / 2;
+			rParams.y += $(ctx.canvas).height() / 2;
 		}
 		
 		floodFill(rParams.x, rParams.y, ctx, rParams.color, rParams.tolerance);

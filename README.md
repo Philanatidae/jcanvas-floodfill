@@ -13,6 +13,7 @@ Load the floodfill.jcanvas.js script after jCanvas. Use the drawFloodFill functi
 $("#canvas").drawFloodFill({
 	x: 0,
 	y: 0,
+	fromCenter: true,
 	tolerance: 0,
 	color: "#000000"
 });
@@ -22,8 +23,9 @@ All of the properties are optional.
 
 |Property   | Default | Function                                            |
 |--------   | ------- | --------                                            |
-|x          | 0       | X position of the flood fill (origin is top-right)  |
-|y          | 0       | Y position of the flood fill (origin is top-right)  |
+|x          | 0       | X position of the flood fill                        |
+|y          | 0       | Y position of the flood fill                        |
+|fromCenter | true    | true if the origin is in the center of the canvas   |
 |tolerance  | 0       | Tolerance level of flood fill for flooding gradients|
 |color      | #000000 | Color of flood fill                                 |
 
