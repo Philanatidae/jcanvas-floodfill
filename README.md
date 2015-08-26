@@ -27,7 +27,7 @@ All of the properties are optional.
 |y          | 0       | Y position of the flood fill                                                                                                     |
 |fromCenter | true    | true if the origin is in the center of the canvas                                                                                |
 |tolerance  | 0       | Tolerance level of flood fill for flooding gradients                                                                             |
-|color      | #000000 | Color of flood fill (in hex, rgb(), rgba(), rgb array, or rgba array, however the Alpha channel is not supported and is stripped |
+|color      | #000000 | Color of flood fill (in hex, rgb(), rgba(), rgb array, or rgba array, however the Alpha channel is not supported and is stripped) |
 
 License
 =======
