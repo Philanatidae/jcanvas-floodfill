@@ -36,7 +36,7 @@ jCanvas FloodFill - a canvasflood fill implementation by Markus Ritberger as
 a plugin for jCanvas
  
 Author: Philip Rader
-Version: 1.0.0 (2015-08-26)
+Version: 1.1.0 (2015-08-26)
  
 licensed under MIT license:
  
