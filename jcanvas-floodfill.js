@@ -1,5 +1,5 @@
 /**
-* jCanvas FloodFill - a canvasflood fill implementation by Markus Ritberger as
+* jcanvas-floodfill - a canvasflood fill implementation by Markus Ritberger as
 * a plugin for jCanvas
 * 
 * Author: Philip Rader
@@ -185,13 +185,13 @@ $.jCanvas.extend({
 				b = "#"+b.join("");
 				rParams.color = b;
 			} else {
-				console.error("floodfill.jcanvas: color can not be color name.");
+				console.error("jcanvas-floodfill: color can not be color name.");
 				return;
 			}
 		}else if(typeof rParams.color == "array") {
 			if(rParams.color.length != 3 && rParams.color.length != 4)
 			{
-				console.error("floodfill.canvas: RGB color array doesn't have 3 or 4 values.");
+				console.error("jcanvas-floodfill: RGB color array doesn't have 3 or 4 values.");
 				return;
 			}
 			

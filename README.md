@@ -1,13 +1,13 @@
-jCanvas FloodFill
+jcanvas-floodfill
 =================
 
-jCanvas FloodFill is a jCanvas plugin that allows for a flood fill on a canvas.
+jcanvas-floodfill is a jCanvas plugin that allows for a flood fill on a canvas.
 (jCanvas)[http://projects.calebevans.me/jcanvas/] is a plugin for jQuery by Caleb Evans to allow for canvas manipulation in jQuery form.
 This plugin uses a script by Markus Ritberger called Flood Fill. Flood fill defines a function that flood fills a canvas. It is licensed under the MIT Open Source license.
 
 Hot To Use
 ==========
-Load the floodfill.jcanvas.js script after jCanvas. Use the drawFloodFill function to flood fill:
+Load the jcanvas-floodfill.js script after jCanvas. Use the drawFloodFill function to flood fill:
 
 ```javascript
 $("#canvas").drawFloodFill({
@@ -21,18 +21,18 @@ $("#canvas").drawFloodFill({
 
 All of the properties are optional.
 
-|Property   | Default | Function                                            |
-|--------   | ------- | --------                                            |
-|x          | 0       | X position of the flood fill                        |
-|y          | 0       | Y position of the flood fill                        |
-|fromCenter | true    | true if the origin is in the center of the canvas   |
-|tolerance  | 0       | Tolerance level of flood fill for flooding gradients|
-|color      | #000000 | Color of flood fill                                 |
+|Property   | Default | Function                                                                                                                         |
+|--------   | ------- | --------                                                                                                                         |
+|x          | 0       | X position of the flood fill                                                                                                     |
+|y          | 0       | Y position of the flood fill                                                                                                     |
+|fromCenter | true    | true if the origin is in the center of the canvas                                                                                |
+|tolerance  | 0       | Tolerance level of flood fill for flooding gradients                                                                             |
+|color      | #000000 | Color of flood fill (in hex, rgb(), rgba(), rgb array, or rgba array, however the Alpha channel is not supported and is stripped |
 
 License
 =======
 
-jCanvas FloodFill - a canvasflood fill implementation by Markus Ritberger as
+jcanvas-floodfill - a canvasflood fill implementation by Markus Ritberger as
 a plugin for jCanvas
  
 Author: Philip Rader
